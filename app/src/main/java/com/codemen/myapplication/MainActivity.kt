@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollDice(){
         val randomInt = Random().nextInt(6) + 1
-        val diceImage: ImageView = dice_image
+        val diceImage= dice_image
         val drawableResource = when (randomInt) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
